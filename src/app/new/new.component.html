@@ -1,0 +1,8 @@
+<h1>You're in new component</h1>
+<h1 *ngIf="hidden; then ifPart else elsePart">Hello from Angular</h1>
+<ng-template #ifPart>
+    <h1>This is if part</h1>
+</ng-template>
+<ng-template #elsePart>
+    <img src="assets/img/run.gif" alt="">
+</ng-template>

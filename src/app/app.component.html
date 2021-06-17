@@ -1,0 +1,12 @@
+<h1>You're in App component</h1>
+<h1 *ngIf="hidden; else elsePart">Hello</h1>
+<ng-template #elsePart>
+  <h3>This is the else statement</h3>
+</ng-template>
+
+
+<app-new></app-new>
+<app-switch></app-switch>
+<app-add></app-add>
+
+<router-outlet></router-outlet>
